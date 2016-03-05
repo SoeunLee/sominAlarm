@@ -1,14 +1,15 @@
 package kr.jay.tutorial;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     private ImageView img_siba;
     protected Button btn_off;
     protected Button btn_re;
@@ -22,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
         btn_off.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();
+                Intent mIntent = new Intent(MainActivity.this, VoiceRecogActivity.class);
+                startActivity(mIntent);
             }
         });
 
