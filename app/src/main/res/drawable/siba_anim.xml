@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/siba_f00" android:duration="100" />
+    <item android:drawable="@drawable/siba_f01" android:duration="100" />
+    <item android:drawable="@drawable/siba_f02" android:duration="100" />
+    <item android:drawable="@drawable/siba_f03" android:duration="100" />
+    <item android:drawable="@drawable/siba_f04" android:duration="100" />
+    <item android:drawable="@drawable/siba_f05" android:duration="100" />
+    <item android:drawable="@drawable/siba_f06" android:duration="100" />
+    <item android:drawable="@drawable/siba_f07" android:duration="100" />
+    <item android:drawable="@drawable/siba_f08" android:duration="100" />
+    <item android:drawable="@drawable/siba_f09" android:duration="100" />
+    <item android:drawable="@drawable/siba_f10" android:duration="100" />
+    <item android:drawable="@drawable/siba_f11" android:duration="100" />
+</animation-list>
